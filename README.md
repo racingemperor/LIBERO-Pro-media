@@ -6,7 +6,7 @@ This repository hosts 331 NORA perturbation recordings and their 331 WebP poster
 
 Videos are 640×640 exports enlarged from 256×256 policy observations, with their orientation matched to the website. They are demonstrations, not a source of leaderboard scores. Internal evaluation records and logs are not distributed here.
 
-The Home overview film is served at `assets/promo/libero-pro2.0-overview-1080p.mp4`, with its WebP poster alongside it. The web version is the complete 90-second, 1920×1080, 30 fps film, encoded as H.264 with its original AAC audio copied unchanged, a front-loaded MP4 index, and two-second keyframes. The original 1440p file remains available at its existing path. Home buffers the web version as the visitor approaches the player, then waits for Play before showing motion or playing audio, with native sound and fullscreen controls. Production audits and internal episode records are excluded.
+The Home overview film is served at `assets/promo/libero-pro2.0-overview-20261022.mp4`, with its matching WebP poster alongside it. This October 22 replacement is the supplied complete 90-second, 1920×1080, 30 fps film, preserved byte for byte without re-encoding: H.264 High video, stereo AAC audio and a front-loaded MP4 index. The previous 1080p and 1440p files remain at their existing paths. Home buffers the current film as the visitor approaches the player, then waits for Play before showing motion or playing audio, with native sound and fullscreen controls. Production audits and internal episode records are excluded.
 
 GitHub Pages serves the files from the root of the `main` branch. Keep `.nojekyll` in place. The website's public media index is maintained in [LIBERO-Pro2.0](https://github.com/racingemperor/LIBERO-Pro2.0).
 
